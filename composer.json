@@ -1,0 +1,26 @@
+{
+  "name": "mt-recruitment/mt-core-api",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "require": {
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "2.*",
+    "phpmd/phpmd" : "@stable",
+    "phpunit/phpunit": "4.*@stable",
+    "behat/behat": "~3.0.6",
+    "phpspec/phpspec": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyTaste\\": "src/MyTaste/"
+    },
+    "psr-4-dev": {
+      "Tests\\MyTaste\\": "tests/MyTaste/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
