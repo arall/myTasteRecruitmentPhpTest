@@ -1,7 +1,7 @@
 # Test introduction and expectations
 
 The purpose of this test is to see how are you able to implement a couple of features described in [Gherkin language](http://docs.behat.org/en/latest/guides/1.gherkin.html#gherkin-syntax) for a cooking recipes platform.    
-Whatever you deliver, we'll give value to it if it really works. It means that anything that you implement, even if it's big or small, it should simply work.
+Whatever you deliver, we'll give value to it if it really works. It means that anything that you implement, even if it's big or small, it should simply work. Since this is a back end test, don't spend any time trying to build a fancy UI and focus doing your best implementing the functionalities we ask about.
 
 Since we like testing and we try to use it in any development we work with, we also encourage you to use functional tests and unit testing to drive your implementations. To give you some ideas, we currently use Behat3 and PHPUnit, but you can use whatever you prefer.   
 Looking at the project structure you'll see a couple of .feature files where the following behaviours are described:
