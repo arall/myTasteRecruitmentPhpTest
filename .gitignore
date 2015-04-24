@@ -2,3 +2,6 @@
 
 # Composer PHAR
 /composer.phar
+bin/
+vendor/
+composer.lock
