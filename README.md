@@ -1,6 +1,6 @@
 # Test introduction and expectations
 
-The purpose of this test is present you a simple description of a couple of features described in [Gherkin language](http://docs.behat.org/en/latest/guides/1.gherkin.html#gherkin-syntax) that you need to implement for a cooking recipes platform. We encourage you not to dedicate more than 4 hours to the test. We know that everybody is busy with other stuff.  
+The purpose of this test is to see how are you able to implement a couple of features described in [Gherkin language](http://docs.behat.org/en/latest/guides/1.gherkin.html#gherkin-syntax) for a cooking recipes platform.    
 Whatever you deliver, we'll give value to it if it really works. It means that anything that you implement, even if it's big or small, it should simply work.
 
 Since we like testing and we try to use it in any development we work with, we also encourage you to use functional tests and unit testing to drive your implementations. To give you some ideas, we currently use Behat3 and PHPUnit, but you can use whatever you prefer.   
@@ -12,12 +12,10 @@ __1. Save recipe into a cookbook__
 
 __2. Be updated when a user saves a recipe into a cookbook__
   
-- Build the functionality around a notifications workflow when certain events like save a recipe happen in the application  
+- Build the functionality around a notifications workflow when certain events like save a recipe happen in the application.  
 
-If you have any questions or doubts about the test, you can contact us at platypus@mytaste.com
-
-Good luck!  
-myTaste developers team
+We encourage you not to dedicate more than 4 hours to the test. We know that everybody is busy with other stuff.  
+If you have any questions or doubts about the test, please contact us at platypus@mytaste.com
 
 # Environment Setup
 The following instructions are our proposal for setting up a testing environment in less than 10 minutes. This will allow you to start with the technical test right away.  
@@ -34,3 +32,6 @@ __2- In order to have everything up and running you'll need to install composer 
 
 $ cd myTasteRecruitmentPhpTest  
 $ php composer.phar install
+
+Good luck!  
+myTaste developers team
