@@ -14,8 +14,8 @@ __2. Be updated when a user saves a recipe into a cookbook__
   
 - Build the functionality around a notifications workflow when certain events like save a recipe happen in the application.  
 
-We encourage you not to dedicate more than 4 hours to the test. We know that everybody is busy with other stuff.  
-If you have any questions or doubts about the test, please contact us at platypus@mytaste.com
+Please send us an email when you consider you've finished the test so we can start taking a look at it. We encourage you not to dedicate more than 4 hours to the test. We know that everybody is busy with other stuff.  
+If you have any questions or doubts about the test or if you just have finished the test, please contact us at platypus@mytaste.com
 
 # Environment Setup
 The following instructions are our proposal for setting up a testing environment in less than 10 minutes. This will allow you to start with the technical test right away.  
