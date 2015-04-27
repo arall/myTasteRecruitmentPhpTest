@@ -1,0 +1,8 @@
+# behat.yml
+default:
+    suites:
+        default:
+            paths:
+                - %paths.base%/features
+            contexts:
+                - MyTaste\Context\FeatureContext

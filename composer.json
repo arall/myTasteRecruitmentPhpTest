@@ -14,7 +14,8 @@
   },
   "autoload": {
     "psr-4": {
-      "MyTaste\\": "src/MyTaste/"
+      "MyTaste\\": "src/MyTaste/",
+      "MyTaste\\Context\\": "features/bootstrap/"
     },
     "psr-4-dev": {
       "Tests\\MyTaste\\": "tests/MyTaste/"
