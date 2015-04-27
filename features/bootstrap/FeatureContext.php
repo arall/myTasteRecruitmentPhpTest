@@ -1,9 +1,13 @@
 <?php
 
+namespace MyTaste\Context;
+
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
+use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
+use PHPUnit_Framework_Assert as Asserts;
 
 /**
  * Defines application features from the specific context.
@@ -19,5 +23,13 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function __construct()
     {
+    }
+
+    /**
+     * @Given exists a user named :userName
+     */
+    public function existsAUserNamed($userName)
+    {
+        Asserts::assertTrue(false);
     }
 }
