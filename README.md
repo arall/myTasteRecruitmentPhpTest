@@ -29,7 +29,7 @@ __1- Fork the test repository in github:__
 __2- In order to have everything up and running you will need to install composer dependencies__  
 
 $ cd myTasteRecruitmentPhpTest  
-$ php composer.phar install
+$ composer install
 
 Good luck!  
 myTaste developers team
