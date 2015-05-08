@@ -18,9 +18,7 @@ Please send us an email when you consider your test to be finished, so we can st
 If you have any questions or doubts about the test, or if you have finished the test, please contact us at cv@mytaste.com
 
 # Environment Setup
-The following instructions are our proposal for setting up a testing environment in less than 10 minutes. This will allow you to start with the technical test right away.  
-
-This setup will end up with a project that should contain your implementation. Note that we have prepared a simple __Silex__ framework setup. We have chosen this framework for the sake of simplicity, but if you prefer to use a different one, please feel free to do so.
+The following instructions are our proposal for setting up a testing environment in less than 10 minutes. This will allow you to start with the technical test right away.
 
 The steps you should follow are:
 
