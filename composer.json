@@ -4,6 +4,7 @@
   "minimum-stability": "stable",
   "license": "MIT",
   "require": {
+    "illuminate/database": "^5.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "2.*",
@@ -13,6 +14,7 @@
     "phpspec/phpspec": "~2.0"
   },
   "autoload": {
+    "files": ["config/database.php"],
     "psr-4": {
       "MyTaste\\": "src/MyTaste/",
       "MyTaste\\Context\\": "features/bootstrap/"

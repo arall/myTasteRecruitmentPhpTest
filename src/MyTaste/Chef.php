@@ -2,10 +2,12 @@
 
 namespace MyTaste;
 
-class Chef
+use Illuminate\Database\Eloquent\Model;
+
+class Chef extends Model
 {
     public function greet()
     {
-        return "Hello!";
+        return 'Hello!';
     }
 }
